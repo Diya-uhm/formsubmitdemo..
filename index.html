@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WingedView Survey Form</title>
+    <style type="text/css">
+        body{
+            background-color: grey;
+        }
+        .form-control{
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        form{
+            margin: 50px auto;
+            padding: 30px 30px;
+            max-width: 650px;
+            background-color: white;
+        }
+
+        .form-control input,
+        .form-control select,
+        .form-control textarea{
+            display: block;
+            padding: 10px;
+            width: 90%
+        }
+
+        button{
+            display: block;
+            width: 100%;
+            padding: 10px 10px;
+            background-color: silver;
+        }
+
+        h1 {
+          font-size: 65px;
+          font-style: italic;
+          color: black;
+          text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">WingedView Survey Form</h1>
+
+<form class="row g-3" action="https://formsubmit.co/3d6b13d91b87d0c8acdc1741680ec81f" method="POST">
+
+    <fieldset>
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Name</label>
+    <input type="text" name="Name" placeholder="Enter your name">
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Email</label>
+    <input type="text" name="Email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Age</label>
+    <input type="text" name="Age" placeholder="Enter your age">
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Which option describes you?</label>
+    <select name="Which option describes you?">
+        <option>Student</option>
+        <option>Post Graduate</option>
+        <option>Graduate</option>
+        <option>High School</option>
+        <option>Professional</option>
+        <option>Other</option>
+    </select>
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">What gear do you use?</label>
+    <input type="radio" name="choice" name="What gear do you use?">BSLR
+    <input type="radio" name="choice">Mirrorless Cameras
+    <input type="radio" name="choice">Point And Shoot Cameras
+    <input type="radio" name="choice">Android System
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">What is your photographic style?</label>
+    <input type="checkbox" name="select" name="What is your photographic style?">Macro
+    <input type="checkbox" name="select">Nature
+    <input type="checkbox" name="select">Pets
+    <input type="checkbox" name="select">Potrait
+    <input type="checkbox" name="select">Other
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">From how many years have you been photographing?</label>
+    <select name="From how many years have you been photographing?">
+        <option>Recently Started</option>
+        <option>More than 1 year</option>
+        <option>More than 2 years</option>
+        <option>More than 3 years</option>
+        <option>More than 4 years</option>
+        <option>More than 5 years</option>
+        <option>6 years and above</option>
+    </select>
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Are you looking forward to pursue photography as a career?</label>
+    <input type="checkbox" name="select" name="Are you looking forward to pursue photography as a career?">Yes
+    <input type="checkbox" name="select">No
+    <input type="checkbox" name="select">Part-Time
+    <input type="checkbox" name="select">Only doing it as a Hobby
+    <input type="checkbox" name="select">Other
+    </div>
+
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Any Suggestions?</label>
+    <textarea name="Any Suggestions?" placeholder="Enter your thoughts here"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+    </fieldset>
+</form>
+</body>
+</html>
